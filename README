@@ -1,0 +1,22 @@
+To start the project:
+1- To create node_modules run : npm install 
+
+2 - Create .env.local file and add:
+
+DATABASE_USERNAME = "postgres"
+DATABASE_DIALECT = "postgres"
+DATABASE_PASSWORD = "postgres"
+DATABASE_DATABASE = "bla bla"
+DATABASE_HOST = "localhost"
+DATABASE_LOGGING = "true"
+DATABASE_URL=postgresql://DATABASE_USERNAME:DATABASE_PASSWORD@localhost:5432/DATABASE_DATABASE
+
+- To start the project run: blitz start
+
+
+Note: In case you face this error: 
+400 A React component suspended while rendering, but no fallback UI was specified. 
+Add a <Suspense fallback=...> component higher in the tree to provide a loading indicator or placeholder to display..
+Please click the return arrow from your broswer and try again, if not help do it again. I am working on fixing fallback error issue. Otherwise all good.
+                            Thanks
+              &&&&Enjoy!!!!!%%%%%%%
