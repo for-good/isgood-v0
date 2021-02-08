@@ -1,0 +1,83 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// --------------------------------------
+
+model User {
+  id             Int       @default(autoincrement()) @id
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+  name           String?
+  email          String    @unique
+  hashedPassword String?
+  projects      Project[]
+  role           String    @default("user")
+  sessions       Session[]
+}
+
+model Session {
+  id                 Int       @default(autoincrement()) @id
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+  expiresAt          DateTime?
+  handle             String    @unique
+  user               User?     @relation(fields: [userId], references: [id])
+  userId             Int?
+  hashedSessionToken String?
+  antiCSRFToken      String?
+  publicData         String?
+  privateData        String?
+}
+
+model Project {
+  id                Int                @default(autoincrement()) @id
+  createdAt         DateTime           @default(now())
+  updatedAt         DateTime           @updatedAt
+  name              String   
+  description       String
+  projecimpacts     String
+  projectoutcomes   String        
+  beneficiaries     Beneficiary[]          
+  projectindicators ProjectIndicator[]     
+  user              User?              @relation(fields: [userId], references: [id])
+  userId            Int?               
+}
+
+model Beneficiary {
+  id           Int           @default(autoincrement()) @id
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+  name         String        
+  demographics Demographic[]   
+  project      Project[]    
+          
+}
+
+
+model ProjectIndicator {
+  id        Int      @default(autoincrement()) @id
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  name      String   
+  projects  Project[]
+      
+}
+
+
+model Demographic {
+  id            Int          @default(autoincrement()) @id
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+  name          String       
+  beneficiary Beneficiary[] 
+          
+}
