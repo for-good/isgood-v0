@@ -1,4 +1,8 @@
-Create .env.local file and add:
+To start the project:
+1- To create node_modules run : npm install 
+
+2 - Create .env.local file and add:
+
 DATABASE_USERNAME = "postgres"
 DATABASE_DIALECT = "postgres"
 DATABASE_PASSWORD = "postgres"
@@ -6,3 +10,9 @@ DATABASE_DATABASE = "bla bla"
 DATABASE_HOST = "localhost"
 DATABASE_LOGGING = "true"
 DATABASE_URL=postgresql://DATABASE_USERNAME:DATABASE_PASSWORD@localhost:5432/DATABASE_DATABASE
+
+- To start the project run: blitz start
+
+
+
+              &&&&Enjoy!!!!!%%%%%%%
