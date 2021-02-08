@@ -14,9 +14,5 @@ DATABASE_URL=postgresql://DATABASE_USERNAME:DATABASE_PASSWORD@localhost:5432/DAT
 - To start the project run: blitz start
 
 
-Note: In case you face this error: 
-400 A React component suspended while rendering, but no fallback UI was specified. 
-Add a <Suspense fallback=...> component higher in the tree to provide a loading indicator or placeholder to display..
-Please click the return arrow from your broswer and try again, if not help do it again. I am working on fixing fallback error issue. Otherwise all good.
                             Thanks
               &&&&Enjoy!!!!!%%%%%%%
