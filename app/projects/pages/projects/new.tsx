@@ -4,6 +4,7 @@ import createProject from "app/projects/mutations/createProject"
 import ProjectForm from "app/projects/components/ProjectForm"
 import getCurrentUser from "app/users/queries/getCurrentUser"
 import {useSession} from "blitz"
+import React, { Suspense } from "react"
 const NewProjectPage: BlitzPage = () => {
   const router = useRouter()
   const [createProjectMutation] = useMutation(createProject)
@@ -52,6 +53,16 @@ const NewProjectPage: BlitzPage = () => {
   )
 }
 
-NewProjectPage.getLayout = (page) => <Layout title={"Create New Project"}>{page}</Layout>
+const NewProjectPage1: BlitzPage = () => {
+  return (
+    <div>
+      <Suspense fallback={<div>Loading...</div>}>
+        <NewProjectPage />
+      </Suspense>
+    </div>
+  )
+}
 
-export default NewProjectPage
+NewProjectPage1.getLayout = (page) => <Layout title={"Create New Project"}>{page}</Layout>
+
+export default NewProjectPage1

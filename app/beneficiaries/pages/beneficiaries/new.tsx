@@ -2,6 +2,7 @@ import Layout from "app/layouts/Layout"
 import { Link, useRouter, useMutation, BlitzPage } from "blitz"
 import createBeneficiary from "app/beneficiaries/mutations/createBeneficiary"
 import BeneficiaryForm from "app/beneficiaries/components/BeneficiaryForm"
+import React, { Suspense } from "react"
 
 const NewBeneficiaryPage: BlitzPage = () => {
   const router = useRouter()
@@ -39,7 +40,16 @@ const NewBeneficiaryPage: BlitzPage = () => {
     </div>
   )
 }
+const NewBeneficiaryPage1: BlitzPage = () => {
+  return (
+    <div>
+      <Suspense fallback={<div>Loading...</div>}>
+        <NewBeneficiaryPage />
+      </Suspense>
+    </div>
+  )
+}
 
-NewBeneficiaryPage.getLayout = (page) => <Layout title={"Create New Beneficiary"}>{page}</Layout>
+NewBeneficiaryPage1.getLayout = (page) => <Layout title={"Create New Beneficiary"}>{page}</Layout>
 
-export default NewBeneficiaryPage
+export default NewBeneficiaryPage1

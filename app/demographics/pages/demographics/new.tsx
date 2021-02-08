@@ -2,6 +2,7 @@ import Layout from "app/layouts/Layout"
 import { Link, useRouter, useMutation, BlitzPage } from "blitz"
 import createDemographic from "app/demographics/mutations/createDemographic"
 import DemographicForm from "app/demographics/components/DemographicForm"
+import React, { Suspense } from "react"
 
 const NewDemographicPage: BlitzPage = () => {
   const router = useRouter()
@@ -37,6 +38,16 @@ const NewDemographicPage: BlitzPage = () => {
   )
 }
 
-NewDemographicPage.getLayout = (page) => <Layout title={"Create New Demographic"}>{page}</Layout>
+const NewDemographicPage1: BlitzPage = () => {
+  return (
+    <div>
+      <Suspense fallback={<div>Loading...</div>}>
+        <NewDemographicPage />
+      </Suspense>
+    </div>
+  )
+}
 
-export default NewDemographicPage
+NewDemographicPage1.getLayout = (page) => <Layout title={"Create New Demographic"}>{page}</Layout>
+
+export default NewDemographicPage1

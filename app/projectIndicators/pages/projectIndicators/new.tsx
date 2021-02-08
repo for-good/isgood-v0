@@ -2,6 +2,7 @@ import Layout from "app/layouts/Layout"
 import { Link, useRouter, useMutation, BlitzPage } from "blitz"
 import createProjectIndicator from "app/projectIndicators/mutations/createProjectIndicator"
 import ProjectIndicatorForm from "app/projectIndicators/components/ProjectIndicatorForm"
+import React, { Suspense } from "react"
 
 const NewProjectIndicatorPage: BlitzPage = () => {
   const router = useRouter()
@@ -38,8 +39,18 @@ const NewProjectIndicatorPage: BlitzPage = () => {
   )
 }
 
-NewProjectIndicatorPage.getLayout = (page) => (
+const NewProjectIndicatorPage1: BlitzPage = () => {
+  return (
+    <div>
+      <Suspense fallback={<div>Loading...</div>}>
+        <NewProjectIndicatorPage />
+      </Suspense>
+    </div>
+  )
+}
+
+NewProjectIndicatorPage1.getLayout = (page) => (
   <Layout title={"Create New ProjectIndicator"}>{page}</Layout>
 )
 
-export default NewProjectIndicatorPage
+export default NewProjectIndicatorPage1
