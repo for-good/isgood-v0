@@ -1,3 +1,6 @@
+-- CreateEnum
+CREATE TYPE "Role" AS ENUM ('USER', 'ADMIN', 'MANAGER');
+
 -- CreateTable
 CREATE TABLE "User" (
 "id" SERIAL,
@@ -6,7 +9,7 @@ CREATE TABLE "User" (
     "name" TEXT,
     "email" TEXT NOT NULL,
     "hashedPassword" TEXT,
-    "role" TEXT NOT NULL DEFAULT E'user',
+    "role" "Role" NOT NULL DEFAULT E'USER',
 
     PRIMARY KEY ("id")
 );

@@ -20,10 +20,15 @@ model User {
   email          String    @unique
   hashedPassword String?
   projects      Project[]
-  role           String    @default("user")
+  role           Role    @default(USER)
   sessions       Session[]
 }
 
+enum Role {
+    USER
+    ADMIN
+    MANAGER
+}
 model Session {
   id                 Int       @default(autoincrement()) @id
   createdAt          DateTime  @default(now())
