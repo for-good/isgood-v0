@@ -12,7 +12,7 @@ DATABASE_LOGGING = "true"
 DATABASE_URL=postgresql://DATABASE_USERNAME:DATABASE_PASSWORD@localhost:5432/DATABASE_DATABASE
 
 - To start the project run: blitz start
-
+Note: in case your device didn't recognize blitz, run this command: npm install -g blitz
 
                             Thanks
               &&&&Enjoy!!!!!%%%%%%%
