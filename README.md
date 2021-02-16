@@ -1,6 +1,6 @@
 <br>
 
-<h1 align="center">AI + Data Platform Enabling People, Planet & Prosperity to Thirve in Balance</h1>
+<h1 align="center">AI + Data Platform Enabling People, Planet & <br/>Prosperity to Thirve in Balance</h1>
 
 <p align="center">
   <a aria-label="Get Involved" href="https://isgood.ai/get-involved/" target="_blank">
