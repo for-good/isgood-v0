@@ -1,6 +1,6 @@
 <br>
 
-<h1 align="center">Tech People, Planet & Prosperity to Thirve in Balance</h1>
+<h1 align="center">AI + Data Platform Enabling People, Planet & Prosperity to Thirve in Balance</h1>
 
 <p align="center">
   <a aria-label="Get Involved" href="https://isgood.ai/get-involved/" target="_blank">
@@ -17,5 +17,7 @@
   <a aria-label="Stackshare" href="https://stackshare.io/isgood-ai/beta" target="_blank">
     <img alt="Stackshare" src="http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat">
   </a>
+  <br/><br/>
+  #dataforgood #aiforgood #techforgood
 </p>
 
