@@ -7,5 +7,9 @@
 <h3 align="center"><a href="https://docs.isgood.ai/" target="_blank">Read the Documentation</a></h3>
 <br>
 
-<p align="center">[![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/isgood-ai/beta)</p>
+<p align="center">
+  <a aria-label="Stackshare" href="https://stackshare.io/isgood-ai/beta">
+    <img alt="Stackshare" src="http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat">
+  </a>
+</p>
 
