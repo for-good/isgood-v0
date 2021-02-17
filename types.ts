@@ -1,6 +1,5 @@
 import { DefaultCtx, SessionContext, DefaultPublicData } from "blitz"
-import { User, Beneficiary  } from "db"
-
+import { user } from "db"
 
 declare module "blitz" {
   export interface Ctx extends DefaultCtx {
@@ -8,8 +7,8 @@ declare module "blitz" {
   }
 
   export interface PublicData extends DefaultPublicData {
-    userId: User["id"]
-    name: User["name"]
+    userId: user["id"]
+    fullName: user["fullName"]
+    role: user["roles"]
   }
-  
 }

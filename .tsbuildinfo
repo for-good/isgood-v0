@@ -817,8 +817,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/.prisma/client/index.d.ts": {
-        "version": "35d087c14795f7cbe93e94b4be060cb393b609b677c501c6c3a2e4b61f99fb09",
-        "signature": "35d087c14795f7cbe93e94b4be060cb393b609b677c501c6c3a2e4b61f99fb09",
+        "version": "4192c93b1c5c2b208f7537dc8f49e6e63fc61ee7c3c3986a85a945e2a3089569",
+        "signature": "4192c93b1c5c2b208f7537dc8f49e6e63fc61ee7c3c3986a85a945e2a3089569",
         "affectsGlobalScope": false
       },
       "./node_modules/@prisma/client/index.d.ts": {
@@ -828,17 +828,17 @@
       },
       "./db/index.ts": {
         "version": "76d878833cf8e47081553e216e30659905ecc25bedfda746c0a6f81a7e7db2c1",
-        "signature": "0e46f35f876023f97ee71504ab017045ebba6df34244ac2b57d8488b27c1f440",
+        "signature": "cfa96dfc62436231090655a65180e64f5801e9a1fea78d9db715ff04db35a76a",
         "affectsGlobalScope": false
       },
       "./types.ts": {
         "version": "c2cac2f0a5d802062a7ba208869f77a604e7f212cd4e65eb26631dd28e3f6f15",
-        "signature": "41b26248b1c0676133b0b6415ad811451f0159e23f78cceeb8e72ae393953485",
+        "signature": "0a1040d4787aa1e525b718a32bddfebccf27d7cc726c04d24c4c6d6f32729f54",
         "affectsGlobalScope": false
       },
       "./app/auth/auth-utils.ts": {
         "version": "7b989de671bff1f6e8f5ed4ee739495c46cf94678ee76f77ff80776357a25535",
-        "signature": "6ad6521118aa452891f183aad823d0ea958991e9e4b0f851a4e0fb45e3deeae1",
+        "signature": "b824b929ca40bfa6c9980ea7f8798f6514a355c9b5cf3a7bc2a05e628901b90a",
         "affectsGlobalScope": false
       },
       "./node_modules/zod/lib/src/zoderror.d.ts": {
@@ -1012,8 +1012,8 @@
         "affectsGlobalScope": false
       },
       "./app/auth/mutations/login.ts": {
-        "version": "903e5921fd174c258fb7ebf9ef93e24b8a3ffd8b484f1dc0053b9f980788d496",
-        "signature": "fca8becfc99f11edf051b33ca4e3e2239d46fc0a6416611d87a56d6b8608a79f",
+        "version": "607aef61993b0f6198203e7813b36e7c52f84bd6d692020dbbe2f1a876f987cb",
+        "signature": "d1a8a324cce0313a29673ff643292ad9793cb15d1212e2ede68ad1ff0acd00bf",
         "affectsGlobalScope": false
       },
       "./app/auth/mutations/logout.ts": {
@@ -1022,68 +1022,68 @@
         "affectsGlobalScope": false
       },
       "./app/auth/mutations/signup.ts": {
-        "version": "287ce6485e949a130baf606175e31d4e765fd7f133632cb9b7374d3ef328b8ca",
-        "signature": "01ee5be6dcf312b0a94d0a9e722bd2580f922586fa5624529156b790779d4c96",
+        "version": "f6e5f24a5ec5f585c4cb97fd7519ec153fbef1cddee926bdc2891d0263f132fd",
+        "signature": "59cccba923a5cd26315088358dd23476cab58977fe583848dc4b8da730b023f7",
         "affectsGlobalScope": false
       },
       "./app/beneficiaries/mutations/createbeneficiary.ts": {
         "version": "f63741b5ca8f0ef538d340bbb68d24b208143a5194159479fa0de3f95a5f62bf",
-        "signature": "e2af11930c7eb1a239b11696608135a0c919870cb5e04fcce596ff4b93c6c602",
+        "signature": "cf7aa0fe465b9cb7502bd2db226b023779dcbd2a7992bf5d4d196508f65149b4",
         "affectsGlobalScope": false
       },
       "./app/beneficiaries/mutations/deletebeneficiary.ts": {
         "version": "b7b04eb661e26afc46c2e36404eb250be8e7d764d79fd6e458da96ddca308361",
-        "signature": "bbd15d619c11f68ebaf168fc72b686797bcf4659d94317519c3c32719313318d",
+        "signature": "841eed1e39d2ec93961ff7fc59ba1ce8aaa808f72d90fb547faf43d8b1cb74ab",
         "affectsGlobalScope": false
       },
       "./app/beneficiaries/mutations/updatebeneficiary.ts": {
         "version": "b75b0d7878150f42ab2a5bc1f13a7a633b9c33c5b5969124092c76ca815425d9",
-        "signature": "c39ca419c4cb8343ebde8513f1a00755cfb930d1ebc3d467be04cc1b03c961c2",
+        "signature": "745c72950c76bcdd45e11fe90b327e19f727670056dd281f8998b4ab113576fe",
         "affectsGlobalScope": false
       },
       "./app/beneficiaries/queries/getbeneficiaries.ts": {
         "version": "d10e1b4627e531fdc7f77ba483116bdd72c7f38bc0936f7985ee3b4d91328aa2",
-        "signature": "794f46fa721b74ad59c3fef6f8c58804f6e54d5a834b0834801da7594251d235",
+        "signature": "a548cf3f3eb08e757a8ba53cd8c0c5f85a395af267ce764e63a5eecdf6665090",
         "affectsGlobalScope": false
       },
       "./app/beneficiaries/queries/getbeneficiary.ts": {
         "version": "ba6e24223f4b1fbdf723b8dc7cbc94c59e65cd29197c5eb471cd0070054a206f",
-        "signature": "d72c63aa78f656e1d4cc5c881f48c2682d32d39428a6bd1a34b2b5679ebc9bdc",
+        "signature": "924b13111e9f9f1e9aa5031e808530c23b20d275b3792b6fdb095832c0cfe487",
         "affectsGlobalScope": false
       },
       "./app/demographics/mutations/createdemographic.ts": {
         "version": "cf167933ee60d28125f05417c9ebfb5d502c778bb24833b612ed9776fb3cbd2b",
-        "signature": "0cfb7519ab5f735781e758226df472c0d3f3dcdec3d10202b488bb2ceef3c853",
+        "signature": "bfd0d0a0f0c9d30c3706acb2a50188993231d1901446a2a73a6e5918464930a4",
         "affectsGlobalScope": false
       },
       "./app/demographics/mutations/deletedemographic.ts": {
         "version": "a053f601624f48c7cd3f6413a8ac8518862bd9d1e6d624d33d64d76a37b49758",
-        "signature": "dad6a53e9dd0a513427f3c77fea5f0cff17050d92ae2b34803eb5e4ed18e2b73",
+        "signature": "ae481960a62ed9515001ec3db12a39b137ee35ad3e8ad9176dd3310f9d5de2ed",
         "affectsGlobalScope": false
       },
       "./app/demographics/mutations/updatedemographic.ts": {
         "version": "99cdee582263054002607e92c70c08da0233609e2f07ac1acfc79ac745bbf22c",
-        "signature": "81da5181222b75e04927c3d0446c967de247ca2145f6dc59a71fec3f82234558",
+        "signature": "84c837cc86bad4846386a55b0d76ce73d73fa049bea4a114687e3d30c814a7ec",
         "affectsGlobalScope": false
       },
       "./app/demographics/queries/getdemographic.ts": {
         "version": "6aaa7eabc8a992a1a7a4d601ee120ab4438c837acae87e6fb4d2580ad1a85c1b",
-        "signature": "b02a4238b0c2377a71afded2e071c092b6b34e9e8719f421f8c3449c68d537eb",
+        "signature": "d59984a3d0f41e6d00237bac9348b5696196fe271bbfb917bc5747549487f302",
         "affectsGlobalScope": false
       },
       "./app/demographics/queries/getdemographics.ts": {
         "version": "d427a9aca4a5cdd5121f16d4cfc77fa38e04969b6413319226bbd58a9880d756",
-        "signature": "52b96084a39a869abe5c2730cad25f6321d09c2f17cb4067d9adcf9ef73a4f6e",
+        "signature": "1fe305d3da03609fbef7740462f39b49f589756fd2c57dee0bcdf2d817173e72",
         "affectsGlobalScope": false
       },
       "./app/hooks/usecurrentbeneficiary.ts": {
-        "version": "a667d4041a3c745fe8f0b74095501b378ff0987becb572c59c070d54d96a3c04",
-        "signature": "14ee2fa0ced39d33faa0975d6ff6b9284c51f289bc542dbf1b07025791c4f69d",
+        "version": "210a2b408f7b4a9fa158b04f09cc524c83e15bcf9c0f0d08ca7034a98c975708",
+        "signature": "d49d34f4490785337be7ca3dd5b177603d43c83b571b9752a6e071bd3d67b358",
         "affectsGlobalScope": false
       },
       "./app/users/queries/getcurrentuser.ts": {
         "version": "54160f2bae1e403ebc3e1981f242fecdc69868b09be1b43e009fa971c9353554",
-        "signature": "06d2a52c1b07b9a4dbcfdfd831a6efc69d801bd57e2ae0d0ecf4e112d37cba58",
+        "signature": "6854b402e0f149633e7c0fa265d07b6fca1bc8f3003d519ba2f4df37b3a837a3",
         "affectsGlobalScope": false
       },
       "./app/hooks/usecurrentuser.ts": {
@@ -1093,52 +1093,52 @@
       },
       "./app/projectindicators/mutations/createprojectindicator.ts": {
         "version": "a50e4799873bfffe33548884842770c78fa11ba4c47aa291369fbdf724042ebd",
-        "signature": "d60f4a57248a2c094edbd2e9bb350efbf303d388241f2ceccd5194d4e469aca8",
+        "signature": "09fbf60a3cb005c0110b9b728e5543af9247f6bcf7d97d2798dfe18f0e1364d7",
         "affectsGlobalScope": false
       },
       "./app/projectindicators/mutations/deleteprojectindicator.ts": {
         "version": "b69e516a3ec8b3e4a06a31f62d4784177c34db1890a15d36dea89e852f425704",
-        "signature": "8364e0aac2c11f3175842cd4771be0c6c0f074513d5b4579ed4e18336b4e3642",
+        "signature": "43f4904bad406a156bd61e3cfc9ec2d3912620892bdacef57cef4500b906674d",
         "affectsGlobalScope": false
       },
       "./app/projectindicators/mutations/updateprojectindicator.ts": {
         "version": "e0a8f7a4b55acd3e1f8a31759951fbedb0d9bc9f5591d5fe1ae23c45948f545a",
-        "signature": "a36a9e34350d9c583037032fde7de76daf4878d19dc17cbbb2e6c259d6af28f3",
+        "signature": "746feb0712d1d06406ebd2e08bfec7325edda52e6eb5d88f0f44d7064a038c58",
         "affectsGlobalScope": false
       },
       "./app/projectindicators/queries/getprojectindicator.ts": {
         "version": "c0caeb2ef8e6a456e676e78e33ff87dc481534c3a9c7dff2d67ddc4f0f3e65d8",
-        "signature": "b73bae5b479adb115910e470cf98b13d5ce487c6c272e478c78fc6fefaacff80",
+        "signature": "f79c5ddbf82a16b4b698c3731c09393f0faaccfe1e7294763535a857c6352aed",
         "affectsGlobalScope": false
       },
       "./app/projectindicators/queries/getprojectindicators.ts": {
         "version": "ebdcb04fdcc3a1ec2c641eb177f89a8842e3837b998a7e3a0b299af7f0342091",
-        "signature": "0cdfe0164ad2986b5489f203fe80a8f356c409953054bcd5eff7626c767c32ba",
+        "signature": "78b4a8577e5af3da600e69ab14c8ea2485ceeeb803be591073cd8413941b14bc",
         "affectsGlobalScope": false
       },
       "./app/projects/mutations/createproject.ts": {
         "version": "8f0fc954b5361c77df59cce2a42d27d131622d8f05a45167581c33175d346cbe",
-        "signature": "3384fe1c2a07a1d730807f21dbfc2f8a4d7b679502a126126545903f485062cd",
+        "signature": "50657a8f0f3379c3dc558abad9e7c4bc2f32af0cccf1c3654dd0e94b803a8104",
         "affectsGlobalScope": false
       },
       "./app/projects/mutations/deleteproject.ts": {
         "version": "dcc2f5bef811319115f96a16a44b701b7c3ba274d205af91f021561a88321e2d",
-        "signature": "d3301e1bcf4a7ad316e9675aad5c72352caa73a2260a82face3120a03477aeb3",
+        "signature": "5738d14d889d0ef1b12f3af6e684a721e6f4a0bc5e61addee6f5979f1c6e7688",
         "affectsGlobalScope": false
       },
       "./app/projects/mutations/updateproject.ts": {
         "version": "13ad7a8214bfc3d514fb3b8bad801a8b5ca0d3d82659427c9fc76d6439ebe25f",
-        "signature": "0ce300c892c19d4e4da33b64b309563393e8d2e1b2982b24284957ff115c5a5d",
+        "signature": "717ea3fb04c80dd6e9ca9e228dc9f8cb6774cc31fc758dfe0c0fae2c94daed31",
         "affectsGlobalScope": false
       },
       "./app/projects/queries/getproject.ts": {
         "version": "172bac5ce1637843c61bb1f53d35b965152b7a96cf956e1cd9a321fc5b038e25",
-        "signature": "84cedc05eb2e9b3861fa62fb6adf517739aa59b977c98eef5de3b4ac2680effe",
+        "signature": "9fbb620049e1649870c4e8bf1ad43ae153932e6c47859ca2a714c22401d1ba87",
         "affectsGlobalScope": false
       },
       "./app/projects/queries/getprojects.ts": {
         "version": "2f634a5952bcf09c779740a8964a215c40db545b97f656f656b5af616123566b",
-        "signature": "92a15deabdfb84db5a15918e349c0bd91e8da9b2b459c05b9b3bafea0e5feefd",
+        "signature": "f2920a43d5864c98a6d1a8b4c86721d090d9cd87804e91316f13b2a5ee8186ff",
         "affectsGlobalScope": false
       },
       "./db/seeds.ts": {
@@ -1173,12 +1173,12 @@
       },
       "./app/auth/components/loginform.tsx": {
         "version": "f646769472313eb4bb79d148151f6d220dbe8fbb03662fb2a2b0df0a2bbb3ecc",
-        "signature": "1d64947bf4d1462f20cc1ac19588940d9f92574c07806ba5af95b1c8a1981429",
+        "signature": "e6ad1a58214e8f42e9eaa04a669d7393ec83c84222deab53612526f32ea1f7ef",
         "affectsGlobalScope": false
       },
       "./app/auth/components/signupform.tsx": {
-        "version": "7160cbf5cddf8e857cbd1c6c8c3ee4b3964b89299072329565970b8ea4c4b986",
-        "signature": "2ed44664d886fc9c406229d0a0c3a67c8fb8a1f9b7d10b264973865fee422375",
+        "version": "974ccc731d05f0f52bd875d705d290a49be6bce676717c0d388dd9c38e0c5df2",
+        "signature": "e6cba22c05ceda6df2f8be2a4c5b6d9e581b1cd428390883d7bb82a77a041b5f",
         "affectsGlobalScope": false
       },
       "./app/layouts/layout.tsx": {
@@ -1193,57 +1193,57 @@
       },
       "./app/auth/pages/signup.tsx": {
         "version": "9ed43efca11f5a1913403509d1d97c30bccb75878989a1e385d3733fcfb81720",
-        "signature": "43d091726287396d533e5303331a592866ee7e9fe4127d4fc87a26c8abab8ad0",
+        "signature": "4236f98ad87d952126678b22d4860001b085699e2d01e8dea163518e06733e9f",
         "affectsGlobalScope": false
       },
       "./app/beneficiaries/components/beneficiaryform.tsx": {
         "version": "079adeddd7aa397575c6e937180e4bd45bd33d80fc69b5e706a98e0542105de4",
-        "signature": "705aff095f874f7d412baef9a299acc1d3543156fcc9b2f62ef36050a2a17924",
+        "signature": "fd25d4fdcea371d46da3f9c627864d4fd3651e7a369240fa186737095812ac72",
         "affectsGlobalScope": false
       },
       "./app/beneficiaries/pages/beneficiaries/[beneficiaryid].tsx": {
         "version": "eecdc73112243fb9b3f7bc007955a2fea7a0dc503ef989a1ab22bb6f454231f0",
-        "signature": "e74ac6726784ffbf4bc1803dd333d8db06b3f67695f92a260fecbb2502ee24e1",
+        "signature": "efe8a930b7e2e43b80c821ec610353d8139ee7370d74adf407709c69e5fbe746",
         "affectsGlobalScope": false
       },
       "./app/beneficiaries/pages/beneficiaries/index.tsx": {
         "version": "6d0d9296239716ab056f79a44f26c95e61a4847a35d325667c8feb3d8698bfec",
-        "signature": "dbb1624cd84423d48e3d3b6348bc3380ba84f30cd3e936ddd3897cd3df877ddf",
+        "signature": "6829b1f4922aadd2702db9404bed007f721bf2883a729c35fa2b9a8a753d4777",
         "affectsGlobalScope": false
       },
       "./app/beneficiaries/pages/beneficiaries/new.tsx": {
-        "version": "b4dcbf1707d5b7ddb0aa4370934b151b1b9a1b293ced150084cfb33d96b5837d",
-        "signature": "1337b7e079f40436dd11264eff2b7d8907271bbe599170e344d6ba365aa43f07",
+        "version": "6b14b8f08a411d7ce5dc92d76b4b57c46fc7584c9ca0ba4daf2e1ac0883a9a15",
+        "signature": "66aa139732a050100857d879e0573c6023a0aa773a239e21f020bfba0bbf276f",
         "affectsGlobalScope": false
       },
       "./app/beneficiaries/pages/beneficiaries/[beneficiaryid]/edit.tsx": {
         "version": "67e1468c9e34d88265a7b42da4023e2421e14a789a662ccc15681dc1ad5bbfc8",
-        "signature": "f91b8254f0f92c64ac49d981c07f4091da61ac16c456ee7bac5fc99e2abab244",
+        "signature": "6ad53fac1195cb3e817bf3cf4862a099fef9adcba68db6076076a4f48d0f6883",
         "affectsGlobalScope": false
       },
       "./app/demographics/components/demographicform.tsx": {
         "version": "7657eb14464bc94120b319fc9b0de41477920de055be1c52be8bc0abfd6c25f6",
-        "signature": "956c023dbba435d2c80e40274460bc93d3f68007a324460be452c67045805a33",
+        "signature": "ea6982ed638921a98245c2865ea1abf6d6e8081301c6c950c2ce41a13090c25d",
         "affectsGlobalScope": false
       },
       "./app/demographics/pages/demographics/[demographicid].tsx": {
         "version": "83412cfdfafaf2fbbe790d3a8f2c89eb04171b88c12d7f6e1ce5e6dbd54300ad",
-        "signature": "649868a3ef05aca403212ae7c3bf6a06a4ea6a4bce1585b81da5a180bae09f53",
+        "signature": "53b45431ae509d3f3a20857a4d13f1b170bd3159d19fbcac2f6812cfb86a107d",
         "affectsGlobalScope": false
       },
       "./app/demographics/pages/demographics/index.tsx": {
         "version": "0800b7b8725166ceb3c9ff3a1b5c4bb63e4a11b9dfec4e0de8d11a10223230fe",
-        "signature": "268db5f094d57e198758e7734dadfdbfa4883eff25a3d6c0c69a99df279bce1b",
+        "signature": "c42a69f6c3d6829e4e862074e0c0c51f56b80d31fbcd583675414f634d22ad88",
         "affectsGlobalScope": false
       },
       "./app/demographics/pages/demographics/new.tsx": {
-        "version": "8b1ef64b2b6e97e88f677059db65f9bd9f517b4fc7b10a259af8c25e266784cd",
-        "signature": "e8618462de2ec1a824c089023336f4a99c85608b1f90e33c9070b50b555d452e",
+        "version": "19096a96d9a53996462da1c4be38c3164478a1ce616e6bea224c312ee258bd80",
+        "signature": "691d8c53787c192837ce02eb6468391e0ce452ef7626fdf0b3bcd1e362438d29",
         "affectsGlobalScope": false
       },
       "./app/demographics/pages/demographics/[demographicid]/edit.tsx": {
         "version": "67c60f41e1d18a03c13d50d897a78eaad5b18470fc7b71e2304da763ad6c169b",
-        "signature": "27743d65d04b5ce8917b230d9fbe07ce9984cb3bf41c94d22cece40404dac0dc",
+        "signature": "c7f642457c82e1b1188746afc9bc7d267c2d6aa1feab0fd337ce8f9b4ee0e6de",
         "affectsGlobalScope": false
       },
       "./app/pages/404.tsx": {
@@ -1264,6 +1264,11 @@
       "./app/pages/_document.tsx": {
         "version": "7a0bcdbdf2d4e0c19e1352da0e1b088c35a0c04346cd144a59fe2961d528e2ba",
         "signature": "91bdf8e113fd99f5ae9bbb86f2314beab0b97e09fcf139e4ab82d0f162f1dcf4",
+        "affectsGlobalScope": false
+      },
+      "./app/pages/adminpage.tsx": {
+        "version": "975844314558405de83dc474016e981cf33b1a6de2025ea2bfb2b4dbc978e3ac",
+        "signature": "f0be30d67b37656c8ca5d833ea4c02b59345bb8e3d1e1b324f0b808409c9f9e5",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/aria-query/index.d.ts": {
@@ -1386,64 +1391,74 @@
         "signature": "4263e754defd91e81bab420592262a29e636d1be701e1c355364ab70d35091ee",
         "affectsGlobalScope": false
       },
+      "./app/pages/managerpage.tsx": {
+        "version": "1f4294b14da0f08f63073fe37db59a33c00082c9d44f6fece3c13084d704a75c",
+        "signature": "32da31f90e5bc134bcd53f3c0f22877d6c6be013739bc199955f809e6015cfc9",
+        "affectsGlobalScope": false
+      },
+      "./app/pages/userpage.tsx": {
+        "version": "4c27af42c6b6767863e8f21bb60a3995049a7c7aab1496c76375d903d71c7309",
+        "signature": "e001fd0104d2fbd4d47f90501e1ddc4541d9644285072f84ca6f949f93440514",
+        "affectsGlobalScope": false
+      },
       "./app/pages/index.tsx": {
-        "version": "7b011973de76044469cc3e8e3cd9d19fb176e664501555ed868fd1054165b404",
-        "signature": "2e1c59edcc9cf391e79c3ef27bd5266b8ea14b891654ef4f285c0b4f111edfbb",
+        "version": "80f668e1e3a268a0a5b9c5dd95f4778a6c90760a9ff5089b51c47650ca7727b8",
+        "signature": "347e256b6b097577e418d954b0033ff56d56fbf2d91a02047ba6b1146b79af4f",
         "affectsGlobalScope": false
       },
       "./app/pages/index.test.tsx": {
         "version": "cbd7cff4877291c7eb8faac4b14373d6ad2d3e816d49082e83bd449cc6c8039e",
-        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
       "./app/projectindicators/components/projectindicatorform.tsx": {
         "version": "fa092e6a6d991046c78f0b746ef894632a1139fe5fbe9418629ad3af6baf5adb",
-        "signature": "12b9fafd7719cc8f5e0e77aa0a9a81c85bcad22088335cab832f48d295db1766",
+        "signature": "502401993fba47e8d39be270168448cf11351332dba78260872ffb34688029a9",
         "affectsGlobalScope": false
       },
       "./app/projectindicators/pages/projectindicators/[projectindicatorid].tsx": {
         "version": "b909f4f48043a51a1607eae794a0e268823ed4d07791106945889e564f6c1071",
-        "signature": "241330b8f38c5df1a367d5371908b676b4f497994caf57fde03fcd0ea0f0c2a3",
+        "signature": "79a8568307fcd3d821fd3e498ab7c7f4883d40593e0e46308eebfd5375e68c37",
         "affectsGlobalScope": false
       },
       "./app/projectindicators/pages/projectindicators/index.tsx": {
         "version": "347eb4e088c143347576b117d93472d2dadedbd26c1b9c82ae8fa293a2e70aa9",
-        "signature": "1a18e8ca340c728fa2a4594ad52cc821046fd94a5b486384d7ad76f995d62964",
+        "signature": "d6245fc65a4281b02a40adc9dfa81f0d929d44cc10ffdcfe724ff2391ff92d26",
         "affectsGlobalScope": false
       },
       "./app/projectindicators/pages/projectindicators/new.tsx": {
-        "version": "7ef2036e2748e0cd17646639a3a0584ee3ba042a023ec33aaef4e12c13d26d4c",
-        "signature": "439b69dca802e3f512cd1c0eb24280e49aabaede3f4c80c35b4e2424d5fdc7e1",
+        "version": "5587bfab1802d08d19b6f0e98f47d6eaa54e2ffc764d77783ce13b97c73b6c05",
+        "signature": "c45b81ed4444da08244dcbb6f494eaf95fda4eca0f2e3e6de5703a6dc280ac70",
         "affectsGlobalScope": false
       },
       "./app/projectindicators/pages/projectindicators/[projectindicatorid]/edit.tsx": {
         "version": "0ad37cbb1fab9b0c53c2cbae7d2eec44af5039290239ad1a56432e72858d6544",
-        "signature": "63cf40a8d88d3ce45a09eba5c523b6b5e7de976020d8e81a737689460a79d86b",
+        "signature": "c8b8f64851ffec82b5300a475a5c5830ef471846d2713d1c31414a8f4372efff",
         "affectsGlobalScope": false
       },
       "./app/projects/components/projectform.tsx": {
         "version": "ee53bbd448ea0839ad42e8a3146dc5c14bdd601ef5d45375f4263242a08be536",
-        "signature": "f1399aaefef8409bebefec484ebc357ce2bce01d6324bd777f1753c95ac3fe1e",
+        "signature": "cbece79b69cdeabf96cbcc70ca44c33db8f7f8cf028512eaeabd2efcfc6ccf4c",
         "affectsGlobalScope": false
       },
       "./app/projects/pages/projects/[projectid].tsx": {
         "version": "fde4988b9841e07efea7dbb7ff4468f866ddb1eca0386de99150af317c725807",
-        "signature": "f627462a4329b17a66ebaf99476e586a6a9c8e8b748eec49c1c9a8b84dca7d47",
+        "signature": "7b045899ccf530907233b6278e307e2df453d7ec33ab174c79b149484467199f",
         "affectsGlobalScope": false
       },
       "./app/projects/pages/projects/index.tsx": {
         "version": "95ef24997d9738473a5d1fb24e65e6e6bb327702d815f285dbf64378a82a15a4",
-        "signature": "b749b223681d9ebc2266ac27130f0a97637b9d07bea3c372aaf7882786d53bd7",
+        "signature": "8ef19d2c6c66d2b39441971b469dc34573b000e820f4ecc2aeffbe6f74f36c95",
         "affectsGlobalScope": false
       },
       "./app/projects/pages/projects/new.tsx": {
-        "version": "7eb796ecdb685dfc65ed3a3fea8bd50a4525bbb4255fa79d9cb8c73ef553e14a",
-        "signature": "18a7c71e7f5541f12ca65f88471d625ce686987f59f423c128682df8304e985d",
+        "version": "62c6efb403258f3b46a0f7939ec204aa0b61e54a7c5c1a0f3e9ba8ff587fedc7",
+        "signature": "40b935418b7c96bc906630117602707723f1b5532ac7faf0169e6cbc45bc2d2e",
         "affectsGlobalScope": false
       },
       "./app/projects/pages/projects/[projectid]/edit.tsx": {
         "version": "9a7f83de6e3240951bb8713b30f0ef12ab0ee617462fa5e03166cc551c4953ac",
-        "signature": "d528a4b862b06089b88fa21a75144995e717597dd63d8f1a71bf3edd6791c26f",
+        "signature": "dc6554d45ed591468ba7c32e32530f5be5315c0788f61eb92f3bdb38acd138ca",
         "affectsGlobalScope": false
       },
       "./node_modules/@babel/types/lib/index.d.ts": {
@@ -1858,6 +1873,7 @@
         "./app/beneficiaries/components/beneficiaryform.tsx",
         "./app/beneficiaries/mutations/createbeneficiary.ts",
         "./app/layouts/layout.tsx",
+        "./node_modules/@types/react/index.d.ts",
         "./node_modules/blitz/dist/index.d.ts"
       ],
       "./app/beneficiaries/queries/getbeneficiaries.ts": [
@@ -1920,6 +1936,7 @@
         "./app/demographics/components/demographicform.tsx",
         "./app/demographics/mutations/createdemographic.ts",
         "./app/layouts/layout.tsx",
+        "./node_modules/@types/react/index.d.ts",
         "./node_modules/blitz/dist/index.d.ts"
       ],
       "./app/demographics/queries/getdemographic.ts": [
@@ -1954,6 +1971,13 @@
       "./app/pages/_document.tsx": [
         "./node_modules/blitz/dist/index.d.ts"
       ],
+      "./app/pages/adminpage.tsx": [
+        "./app/auth/mutations/logout.ts",
+        "./app/hooks/usecurrentuser.ts",
+        "./app/layouts/layout.tsx",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/blitz/dist/index.d.ts"
+      ],
       "./app/pages/index.test.tsx": [
         "./app/hooks/usecurrentuser.ts",
         "./app/pages/index.tsx",
@@ -1961,6 +1985,23 @@
         "./test/utils.tsx"
       ],
       "./app/pages/index.tsx": [
+        "./app/auth/mutations/logout.ts",
+        "./app/hooks/usecurrentuser.ts",
+        "./app/layouts/layout.tsx",
+        "./app/pages/adminpage.tsx",
+        "./app/pages/managerpage.tsx",
+        "./app/pages/userpage.tsx",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/blitz/dist/index.d.ts"
+      ],
+      "./app/pages/managerpage.tsx": [
+        "./app/auth/mutations/logout.ts",
+        "./app/hooks/usecurrentuser.ts",
+        "./app/layouts/layout.tsx",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/blitz/dist/index.d.ts"
+      ],
+      "./app/pages/userpage.tsx": [
         "./app/auth/mutations/logout.ts",
         "./app/hooks/usecurrentuser.ts",
         "./app/layouts/layout.tsx",
@@ -2009,6 +2050,7 @@
         "./app/layouts/layout.tsx",
         "./app/projectindicators/components/projectindicatorform.tsx",
         "./app/projectindicators/mutations/createprojectindicator.ts",
+        "./node_modules/@types/react/index.d.ts",
         "./node_modules/blitz/dist/index.d.ts"
       ],
       "./app/projectindicators/queries/getprojectindicator.ts": [
@@ -2064,6 +2106,7 @@
         "./app/projects/components/projectform.tsx",
         "./app/projects/mutations/createproject.ts",
         "./app/users/queries/getcurrentuser.ts",
+        "./node_modules/@types/react/index.d.ts",
         "./node_modules/blitz/dist/index.d.ts"
       ],
       "./app/projects/queries/getproject.ts": [
@@ -2950,6 +2993,7 @@
       ],
       "./app/auth/mutations/signup.ts": [
         "./app/auth/validations.ts",
+        "./node_modules/.prisma/client/index.d.ts",
         "./node_modules/blitz/dist/index.d.ts"
       ],
       "./app/auth/pages/login.tsx": [
@@ -3070,17 +3114,14 @@
       ],
       "./app/projectindicators/mutations/createprojectindicator.ts": [
         "./db/index.ts",
-        "./node_modules/.prisma/client/index.d.ts",
         "./node_modules/blitz/dist/index.d.ts"
       ],
       "./app/projectindicators/mutations/deleteprojectindicator.ts": [
         "./db/index.ts",
-        "./node_modules/.prisma/client/index.d.ts",
         "./node_modules/blitz/dist/index.d.ts"
       ],
       "./app/projectindicators/mutations/updateprojectindicator.ts": [
         "./db/index.ts",
-        "./node_modules/.prisma/client/index.d.ts",
         "./node_modules/blitz/dist/index.d.ts"
       ],
       "./app/projectindicators/pages/projectindicators/[projectindicatorid].tsx": [
@@ -3097,12 +3138,10 @@
       ],
       "./app/projectindicators/queries/getprojectindicator.ts": [
         "./db/index.ts",
-        "./node_modules/.prisma/client/index.d.ts",
         "./node_modules/blitz/dist/index.d.ts"
       ],
       "./app/projectindicators/queries/getprojectindicators.ts": [
         "./db/index.ts",
-        "./node_modules/.prisma/client/index.d.ts",
         "./node_modules/blitz/dist/index.d.ts"
       ],
       "./app/projects/components/projectform.tsx": [
@@ -3146,6 +3185,7 @@
         "./node_modules/blitz/dist/index.d.ts"
       ],
       "./app/users/queries/getcurrentuser.ts": [
+        "./node_modules/.prisma/client/index.d.ts",
         "./node_modules/blitz/dist/index.d.ts"
       ],
       "./db/index.ts": [
@@ -4013,64 +4053,945 @@
     "semanticDiagnosticsPerFile": [
       "./app/auth/auth-utils.ts",
       "./app/auth/components/loginform.tsx",
-      "./app/auth/components/signupform.tsx",
-      "./app/auth/mutations/login.ts",
+      [
+        "./app/auth/components/signupform.tsx",
+        [
+          {
+            "file": "./app/auth/components/signupform.tsx",
+            "start": 608,
+            "length": 13,
+            "code": 2322,
+            "category": 1,
+            "messageText": {
+              "messageText": "Type '{ email: string; firstName: string; password: string; }' is not assignable to type 'Partial<{ name: string; email: string; password: string; }>'.",
+              "category": 1,
+              "code": 2322,
+              "next": [
+                {
+                  "messageText": "Object literal may only specify known properties, and 'firstName' does not exist in type 'Partial<{ name: string; email: string; password: string; }>'.",
+                  "category": 1,
+                  "code": 2353
+                }
+              ]
+            },
+            "relatedInformation": [
+              {
+                "file": "./app/components/form.tsx",
+                "start": 441,
+                "length": 13,
+                "messageText": "The expected type comes from property 'initialValues' which is declared here on type 'IntrinsicAttributes & { children: ReactNode; submitText: string; schema?: ZodObject<{ email: ZodString; name: ZodString; password: ZodString; }, { ...; }, { ...; }> | undefined; onSubmit: (values: { ...; }, form: FormApi<...>, callback?: ((errors?: SubmissionErrors | undefined) => void) | undefined) => void | ... 2 ...'",
+                "category": 3,
+                "code": 6500
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        "./app/auth/mutations/login.ts",
+        [
+          {
+            "file": "./app/auth/mutations/login.ts",
+            "start": 456,
+            "length": 39,
+            "code": 2345,
+            "category": 1,
+            "messageText": {
+              "messageText": "Argument of type '{ userId: number; roles: any[]; }' is not assignable to parameter of type 'PublicData'.",
+              "category": 1,
+              "code": 2345,
+              "next": [
+                {
+                  "messageText": "Property 'name' is missing in type '{ userId: number; roles: any[]; }' but required in type 'PublicData'.",
+                  "category": 1,
+                  "code": 2741
+                }
+              ]
+            },
+            "relatedInformation": [
+              {
+                "file": "./types.ts",
+                "start": 299,
+                "length": 4,
+                "messageText": "'name' is declared here.",
+                "category": 3,
+                "code": 2728
+              }
+            ]
+          },
+          {
+            "file": "./app/auth/mutations/login.ts",
+            "start": 488,
+            "length": 4,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'role' does not exist on type '{ id: number; firstName: string; lastName: string; status: string; emailVerified: boolean | null; emailVerificationToken: string | null; emailVerificationExpiresAt: Date | null; ... 11 more ...; updatedBy: number; }'."
+          }
+        ]
+      ],
       "./app/auth/mutations/logout.ts",
-      "./app/auth/mutations/signup.ts",
+      [
+        "./app/auth/mutations/signup.ts",
+        [
+          {
+            "file": "./app/auth/mutations/signup.ts",
+            "start": 461,
+            "length": 10,
+            "code": 2322,
+            "category": 1,
+            "messageText": {
+              "messageText": "Type '{ email: string; name: string; hashedPassword: string; role: string; }' is not assignable to type 'userCreateInput'.",
+              "category": 1,
+              "code": 2322,
+              "next": [
+                {
+                  "messageText": "Object literal may only specify known properties, and 'name' does not exist in type 'userCreateInput'.",
+                  "category": 1,
+                  "code": 2353
+                }
+              ]
+            },
+            "relatedInformation": [
+              {
+                "file": "./node_modules/.prisma/client/index.d.ts",
+                "start": 310602,
+                "length": 4,
+                "messageText": "The expected type comes from property 'data' which is declared here on type 'Subset<userCreateArgs, userCreateArgs>'",
+                "category": 3,
+                "code": 6500
+              }
+            ]
+          },
+          {
+            "file": "./app/auth/mutations/signup.ts",
+            "start": 529,
+            "length": 10,
+            "code": 2322,
+            "category": 1,
+            "messageText": {
+              "messageText": "Type '{ id: true; name: true; email: true; role: true; }' is not assignable to type 'userSelect'.",
+              "category": 1,
+              "code": 2322,
+              "next": [
+                {
+                  "messageText": "Object literal may only specify known properties, and 'name' does not exist in type 'userSelect'.",
+                  "category": 1,
+                  "code": 2353
+                }
+              ]
+            },
+            "relatedInformation": [
+              {
+                "file": "./node_modules/.prisma/client/index.d.ts",
+                "start": 310412,
+                "length": 6,
+                "messageText": "The expected type comes from property 'select' which is declared here on type 'Subset<userCreateArgs, userCreateArgs>'",
+                "category": 3,
+                "code": 6500
+              }
+            ]
+          },
+          {
+            "file": "./app/auth/mutations/signup.ts",
+            "start": 597,
+            "length": 39,
+            "code": 2345,
+            "category": 1,
+            "messageText": {
+              "messageText": "Argument of type '{ userId: number; roles: any[]; }' is not assignable to parameter of type 'PublicData'.",
+              "category": 1,
+              "code": 2345,
+              "next": [
+                {
+                  "messageText": "Property 'name' is missing in type '{ userId: number; roles: any[]; }' but required in type 'PublicData'.",
+                  "category": 1,
+                  "code": 2741
+                }
+              ]
+            },
+            "relatedInformation": [
+              {
+                "file": "./types.ts",
+                "start": 299,
+                "length": 4,
+                "messageText": "'name' is declared here.",
+                "category": 3,
+                "code": 2728
+              }
+            ]
+          },
+          {
+            "file": "./app/auth/mutations/signup.ts",
+            "start": 629,
+            "length": 4,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'role' does not exist on type 'user'."
+          }
+        ]
+      ],
       "./app/auth/pages/login.tsx",
       "./app/auth/pages/signup.tsx",
       "./app/auth/validations.ts",
-      "./app/beneficiaries/components/beneficiaryform.tsx",
-      "./app/beneficiaries/mutations/createbeneficiary.ts",
-      "./app/beneficiaries/mutations/deletebeneficiary.ts",
-      "./app/beneficiaries/mutations/updatebeneficiary.ts",
+      [
+        "./app/beneficiaries/components/beneficiaryform.tsx",
+        [
+          {
+            "file": "./app/beneficiaries/components/beneficiaryform.tsx",
+            "start": 432,
+            "length": 11,
+            "code": 2345,
+            "category": 1,
+            "messageText": {
+              "messageText": "Argument of type '{ where: {}; }' is not assignable to parameter of type 'Pick<any, \"where\" | \"orderBy\" | \"take\" | \"skip\">'.",
+              "category": 1,
+              "code": 2345,
+              "next": [
+                {
+                  "messageText": "Type '{ where: {}; }' is missing the following properties from type 'Pick<any, \"where\" | \"orderBy\" | \"take\" | \"skip\">': orderBy, take, skip",
+                  "category": 1,
+                  "code": 2739
+                }
+              ]
+            }
+          },
+          {
+            "file": "./app/beneficiaries/components/beneficiaryform.tsx",
+            "start": 491,
+            "length": 11,
+            "code": 2345,
+            "category": 1,
+            "messageText": {
+              "messageText": "Argument of type '{ where: {}; }' is not assignable to parameter of type 'Pick<any, \"where\" | \"orderBy\" | \"take\" | \"skip\">'.",
+              "category": 1,
+              "code": 2345,
+              "next": [
+                {
+                  "messageText": "Type '{ where: {}; }' is missing the following properties from type 'Pick<any, \"where\" | \"orderBy\" | \"take\" | \"skip\">': orderBy, take, skip",
+                  "category": 1,
+                  "code": 2739
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      [
+        "./app/beneficiaries/mutations/createbeneficiary.ts",
+        [
+          {
+            "file": "./app/beneficiaries/mutations/createbeneficiary.ts",
+            "start": 103,
+            "length": 21,
+            "messageText": "'\"/Users/mattsirkis/isgood.ai/isgood-webapp/node_modules/.prisma/client/index\".Prisma' has no exported member named 'BeneficiaryCreateArgs'. Did you mean 'beneficiaryCreateArgs'?",
+            "category": 1,
+            "code": 2724
+          }
+        ]
+      ],
+      [
+        "./app/beneficiaries/mutations/deletebeneficiary.ts",
+        [
+          {
+            "file": "./app/beneficiaries/mutations/deletebeneficiary.ts",
+            "start": 103,
+            "length": 21,
+            "messageText": "'\"/Users/mattsirkis/isgood.ai/isgood-webapp/node_modules/.prisma/client/index\".Prisma' has no exported member named 'BeneficiaryDeleteArgs'. Did you mean 'beneficiaryDeleteArgs'?",
+            "category": 1,
+            "code": 2724
+          }
+        ]
+      ],
+      [
+        "./app/beneficiaries/mutations/updatebeneficiary.ts",
+        [
+          {
+            "file": "./app/beneficiaries/mutations/updatebeneficiary.ts",
+            "start": 103,
+            "length": 21,
+            "messageText": "'\"/Users/mattsirkis/isgood.ai/isgood-webapp/node_modules/.prisma/client/index\".Prisma' has no exported member named 'BeneficiaryUpdateArgs'. Did you mean 'beneficiaryUpdateArgs'?",
+            "category": 1,
+            "code": 2724
+          }
+        ]
+      ],
       "./app/beneficiaries/pages/beneficiaries/[beneficiaryid].tsx",
       "./app/beneficiaries/pages/beneficiaries/[beneficiaryid]/edit.tsx",
-      "./app/beneficiaries/pages/beneficiaries/index.tsx",
+      [
+        "./app/beneficiaries/pages/beneficiaries/index.tsx",
+        [
+          {
+            "file": "./app/beneficiaries/pages/beneficiaries/index.tsx",
+            "start": 437,
+            "length": 92,
+            "code": 2345,
+            "category": 1,
+            "messageText": {
+              "messageText": "Argument of type '{ orderBy: { id: string; }; skip: number; take: number; }' is not assignable to parameter of type 'Pick<any, \"where\" | \"orderBy\" | \"take\" | \"skip\">'.",
+              "category": 1,
+              "code": 2345,
+              "next": [
+                {
+                  "messageText": "Property 'where' is missing in type '{ orderBy: { id: string; }; skip: number; take: number; }' but required in type 'Pick<any, \"where\" | \"orderBy\" | \"take\" | \"skip\">'.",
+                  "category": 1,
+                  "code": 2741
+                }
+              ]
+            }
+          }
+        ]
+      ],
       "./app/beneficiaries/pages/beneficiaries/new.tsx",
-      "./app/beneficiaries/queries/getbeneficiaries.ts",
-      "./app/beneficiaries/queries/getbeneficiary.ts",
+      [
+        "./app/beneficiaries/queries/getbeneficiaries.ts",
+        [
+          {
+            "file": "./app/beneficiaries/queries/getbeneficiaries.ts",
+            "start": 105,
+            "length": 23,
+            "messageText": "'\"/Users/mattsirkis/isgood.ai/isgood-webapp/node_modules/.prisma/client/index\".Prisma' has no exported member named 'FindManyBeneficiaryArgs'. Did you mean 'FindManybeneficiaryArgs'?",
+            "category": 1,
+            "code": 2724
+          }
+        ]
+      ],
+      [
+        "./app/beneficiaries/queries/getbeneficiary.ts",
+        [
+          {
+            "file": "./app/beneficiaries/queries/getbeneficiary.ts",
+            "start": 115,
+            "length": 24,
+            "messageText": "'\"/Users/mattsirkis/isgood.ai/isgood-webapp/node_modules/.prisma/client/index\".Prisma' has no exported member named 'FindFirstBeneficiaryArgs'. Did you mean 'FindFirstbeneficiaryArgs'?",
+            "category": 1,
+            "code": 2724
+          }
+        ]
+      ],
       "./app/components/form.tsx",
       "./app/components/labeledtextfield.tsx",
-      "./app/demographics/components/demographicform.tsx",
-      "./app/demographics/mutations/createdemographic.ts",
-      "./app/demographics/mutations/deletedemographic.ts",
-      "./app/demographics/mutations/updatedemographic.ts",
+      [
+        "./app/demographics/components/demographicform.tsx",
+        [
+          {
+            "file": "./app/demographics/components/demographicform.tsx",
+            "start": 376,
+            "length": 11,
+            "code": 2345,
+            "category": 1,
+            "messageText": {
+              "messageText": "Argument of type '{ where: {}; }' is not assignable to parameter of type 'Pick<any, \"where\" | \"orderBy\" | \"take\" | \"skip\">'.",
+              "category": 1,
+              "code": 2345,
+              "next": [
+                {
+                  "messageText": "Type '{ where: {}; }' is missing the following properties from type 'Pick<any, \"where\" | \"orderBy\" | \"take\" | \"skip\">': orderBy, take, skip",
+                  "category": 1,
+                  "code": 2739
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      [
+        "./app/demographics/mutations/createdemographic.ts",
+        [
+          {
+            "file": "./app/demographics/mutations/createdemographic.ts",
+            "start": 103,
+            "length": 21,
+            "messageText": "'\"/Users/mattsirkis/isgood.ai/isgood-webapp/node_modules/.prisma/client/index\".Prisma' has no exported member named 'DemographicCreateArgs'. Did you mean 'demographicCreateArgs'?",
+            "category": 1,
+            "code": 2724
+          }
+        ]
+      ],
+      [
+        "./app/demographics/mutations/deletedemographic.ts",
+        [
+          {
+            "file": "./app/demographics/mutations/deletedemographic.ts",
+            "start": 103,
+            "length": 21,
+            "messageText": "'\"/Users/mattsirkis/isgood.ai/isgood-webapp/node_modules/.prisma/client/index\".Prisma' has no exported member named 'DemographicDeleteArgs'. Did you mean 'demographicDeleteArgs'?",
+            "category": 1,
+            "code": 2724
+          }
+        ]
+      ],
+      [
+        "./app/demographics/mutations/updatedemographic.ts",
+        [
+          {
+            "file": "./app/demographics/mutations/updatedemographic.ts",
+            "start": 103,
+            "length": 21,
+            "messageText": "'\"/Users/mattsirkis/isgood.ai/isgood-webapp/node_modules/.prisma/client/index\".Prisma' has no exported member named 'DemographicUpdateArgs'. Did you mean 'demographicUpdateArgs'?",
+            "category": 1,
+            "code": 2724
+          }
+        ]
+      ],
       "./app/demographics/pages/demographics/[demographicid].tsx",
       "./app/demographics/pages/demographics/[demographicid]/edit.tsx",
-      "./app/demographics/pages/demographics/index.tsx",
+      [
+        "./app/demographics/pages/demographics/index.tsx",
+        [
+          {
+            "file": "./app/demographics/pages/demographics/index.tsx",
+            "start": 431,
+            "length": 92,
+            "code": 2345,
+            "category": 1,
+            "messageText": {
+              "messageText": "Argument of type '{ orderBy: { id: string; }; skip: number; take: number; }' is not assignable to parameter of type 'Pick<any, \"where\" | \"orderBy\" | \"take\" | \"skip\">'.",
+              "category": 1,
+              "code": 2345,
+              "next": [
+                {
+                  "messageText": "Property 'where' is missing in type '{ orderBy: { id: string; }; skip: number; take: number; }' but required in type 'Pick<any, \"where\" | \"orderBy\" | \"take\" | \"skip\">'.",
+                  "category": 1,
+                  "code": 2741
+                }
+              ]
+            }
+          }
+        ]
+      ],
       "./app/demographics/pages/demographics/new.tsx",
-      "./app/demographics/queries/getdemographic.ts",
-      "./app/demographics/queries/getdemographics.ts",
-      "./app/hooks/usecurrentbeneficiary.ts",
+      [
+        "./app/demographics/queries/getdemographic.ts",
+        [
+          {
+            "file": "./app/demographics/queries/getdemographic.ts",
+            "start": 115,
+            "length": 24,
+            "messageText": "'\"/Users/mattsirkis/isgood.ai/isgood-webapp/node_modules/.prisma/client/index\".Prisma' has no exported member named 'FindFirstDemographicArgs'. Did you mean 'FindFirstdemographicArgs'?",
+            "category": 1,
+            "code": 2724
+          }
+        ]
+      ],
+      [
+        "./app/demographics/queries/getdemographics.ts",
+        [
+          {
+            "file": "./app/demographics/queries/getdemographics.ts",
+            "start": 104,
+            "length": 23,
+            "messageText": "'\"/Users/mattsirkis/isgood.ai/isgood-webapp/node_modules/.prisma/client/index\".Prisma' has no exported member named 'FindManyDemographicArgs'. Did you mean 'FindManydemographicArgs'?",
+            "category": 1,
+            "code": 2724
+          }
+        ]
+      ],
+      [
+        "./app/hooks/usecurrentbeneficiary.ts",
+        [
+          {
+            "file": "./app/hooks/usecurrentbeneficiary.ts",
+            "start": 206,
+            "length": 2,
+            "code": 2345,
+            "category": 1,
+            "messageText": {
+              "messageText": "Argument of type '{}' is not assignable to parameter of type 'Pick<any, \"where\" | \"orderBy\" | \"take\" | \"skip\">'.",
+              "category": 1,
+              "code": 2345,
+              "next": [
+                {
+                  "messageText": "Type '{}' is missing the following properties from type 'Pick<any, \"where\" | \"orderBy\" | \"take\" | \"skip\">': where, orderBy, take, skip",
+                  "category": 1,
+                  "code": 2739
+                }
+              ]
+            }
+          }
+        ]
+      ],
       "./app/hooks/usecurrentuser.ts",
       "./app/layouts/layout.tsx",
       "./app/pages/404.tsx",
       "./app/pages/_app.tsx",
       "./app/pages/_document.tsx",
-      "./app/pages/index.test.tsx",
-      "./app/pages/index.tsx",
-      "./app/projectindicators/components/projectindicatorform.tsx",
-      "./app/projectindicators/mutations/createprojectindicator.ts",
-      "./app/projectindicators/mutations/deleteprojectindicator.ts",
-      "./app/projectindicators/mutations/updateprojectindicator.ts",
+      "./app/pages/adminpage.tsx",
+      [
+        "./app/pages/index.test.tsx",
+        [
+          {
+            "file": "./app/pages/index.test.tsx",
+            "start": 655,
+            "length": 12,
+            "code": 2345,
+            "category": 1,
+            "messageText": {
+              "messageText": "Argument of type '{ id: number; name: string; email: string; role: string; }' is not assignable to parameter of type 'user'.",
+              "category": 1,
+              "code": 2345,
+              "next": [
+                {
+                  "messageText": "Object literal may only specify known properties, and 'name' does not exist in type 'user'.",
+                  "category": 1,
+                  "code": 2353
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      [
+        "./app/pages/index.tsx",
+        [
+          {
+            "file": "./app/pages/index.tsx",
+            "start": 627,
+            "length": 4,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'role' does not exist on type 'user'."
+          },
+          {
+            "file": "./app/pages/index.tsx",
+            "start": 726,
+            "length": 4,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'role' does not exist on type 'user'."
+          },
+          {
+            "file": "./app/pages/index.tsx",
+            "start": 828,
+            "length": 4,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'role' does not exist on type 'user'."
+          }
+        ]
+      ],
+      "./app/pages/managerpage.tsx",
+      "./app/pages/userpage.tsx",
+      [
+        "./app/projectindicators/components/projectindicatorform.tsx",
+        [
+          {
+            "file": "./app/projectindicators/components/projectindicatorform.tsx",
+            "start": 367,
+            "length": 11,
+            "code": 2345,
+            "category": 1,
+            "messageText": {
+              "messageText": "Argument of type '{ where: {}; }' is not assignable to parameter of type 'Pick<any, \"where\" | \"orderBy\" | \"take\" | \"skip\">'.",
+              "category": 1,
+              "code": 2345,
+              "next": [
+                {
+                  "messageText": "Type '{ where: {}; }' is missing the following properties from type 'Pick<any, \"where\" | \"orderBy\" | \"take\" | \"skip\">': orderBy, take, skip",
+                  "category": 1,
+                  "code": 2739
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      [
+        "./app/projectindicators/mutations/createprojectindicator.ts",
+        [
+          {
+            "file": "./app/projectindicators/mutations/createprojectindicator.ts",
+            "start": 108,
+            "length": 26,
+            "messageText": "'\"/Users/mattsirkis/isgood.ai/isgood-webapp/node_modules/.prisma/client/index\".Prisma' has no exported member named 'ProjectIndicatorCreateArgs'. Did you mean 'projectIndicatorsCreateArgs'?",
+            "category": 1,
+            "code": 2724
+          },
+          {
+            "file": "./app/projectindicators/mutations/createprojectindicator.ts",
+            "start": 317,
+            "length": 16,
+            "code": 2551,
+            "category": 1,
+            "messageText": "Property 'projectIndicator' does not exist on type 'PrismaClient<PrismaClientOptions, never>'. Did you mean 'projectIndicators'?",
+            "relatedInformation": [
+              {
+                "file": "./node_modules/.prisma/client/index.d.ts",
+                "start": 17582,
+                "length": 17,
+                "messageText": "'projectIndicators' is declared here.",
+                "category": 3,
+                "code": 2728
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        "./app/projectindicators/mutations/deleteprojectindicator.ts",
+        [
+          {
+            "file": "./app/projectindicators/mutations/deleteprojectindicator.ts",
+            "start": 108,
+            "length": 26,
+            "messageText": "'\"/Users/mattsirkis/isgood.ai/isgood-webapp/node_modules/.prisma/client/index\".Prisma' has no exported member named 'ProjectIndicatorDeleteArgs'. Did you mean 'projectIndicatorsDeleteArgs'?",
+            "category": 1,
+            "code": 2724
+          },
+          {
+            "file": "./app/projectindicators/mutations/deleteprojectindicator.ts",
+            "start": 320,
+            "length": 16,
+            "code": 2551,
+            "category": 1,
+            "messageText": "Property 'projectIndicator' does not exist on type 'PrismaClient<PrismaClientOptions, never>'. Did you mean 'projectIndicators'?",
+            "relatedInformation": [
+              {
+                "file": "./node_modules/.prisma/client/index.d.ts",
+                "start": 17582,
+                "length": 17,
+                "messageText": "'projectIndicators' is declared here.",
+                "category": 3,
+                "code": 2728
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        "./app/projectindicators/mutations/updateprojectindicator.ts",
+        [
+          {
+            "file": "./app/projectindicators/mutations/updateprojectindicator.ts",
+            "start": 108,
+            "length": 26,
+            "messageText": "'\"/Users/mattsirkis/isgood.ai/isgood-webapp/node_modules/.prisma/client/index\".Prisma' has no exported member named 'ProjectIndicatorUpdateArgs'. Did you mean 'projectIndicatorsUpdateArgs'?",
+            "category": 1,
+            "code": 2724
+          },
+          {
+            "file": "./app/projectindicators/mutations/updateprojectindicator.ts",
+            "start": 335,
+            "length": 16,
+            "code": 2551,
+            "category": 1,
+            "messageText": "Property 'projectIndicator' does not exist on type 'PrismaClient<PrismaClientOptions, never>'. Did you mean 'projectIndicators'?",
+            "relatedInformation": [
+              {
+                "file": "./node_modules/.prisma/client/index.d.ts",
+                "start": 17582,
+                "length": 17,
+                "messageText": "'projectIndicators' is declared here.",
+                "category": 3,
+                "code": 2728
+              }
+            ]
+          }
+        ]
+      ],
       "./app/projectindicators/pages/projectindicators/[projectindicatorid].tsx",
       "./app/projectindicators/pages/projectindicators/[projectindicatorid]/edit.tsx",
-      "./app/projectindicators/pages/projectindicators/index.tsx",
+      [
+        "./app/projectindicators/pages/projectindicators/index.tsx",
+        [
+          {
+            "file": "./app/projectindicators/pages/projectindicators/index.tsx",
+            "start": 461,
+            "length": 92,
+            "code": 2345,
+            "category": 1,
+            "messageText": {
+              "messageText": "Argument of type '{ orderBy: { id: string; }; skip: number; take: number; }' is not assignable to parameter of type 'Pick<any, \"where\" | \"orderBy\" | \"take\" | \"skip\">'.",
+              "category": 1,
+              "code": 2345,
+              "next": [
+                {
+                  "messageText": "Property 'where' is missing in type '{ orderBy: { id: string; }; skip: number; take: number; }' but required in type 'Pick<any, \"where\" | \"orderBy\" | \"take\" | \"skip\">'.",
+                  "category": 1,
+                  "code": 2741
+                }
+              ]
+            }
+          }
+        ]
+      ],
       "./app/projectindicators/pages/projectindicators/new.tsx",
-      "./app/projectindicators/queries/getprojectindicator.ts",
-      "./app/projectindicators/queries/getprojectindicators.ts",
-      "./app/projects/components/projectform.tsx",
-      "./app/projects/mutations/createproject.ts",
-      "./app/projects/mutations/deleteproject.ts",
-      "./app/projects/mutations/updateproject.ts",
+      [
+        "./app/projectindicators/queries/getprojectindicator.ts",
+        [
+          {
+            "file": "./app/projectindicators/queries/getprojectindicator.ts",
+            "start": 120,
+            "length": 29,
+            "messageText": "'\"/Users/mattsirkis/isgood.ai/isgood-webapp/node_modules/.prisma/client/index\".Prisma' has no exported member named 'FindFirstProjectIndicatorArgs'. Did you mean 'FindFirstprojectIndicatorsArgs'?",
+            "category": 1,
+            "code": 2724
+          },
+          {
+            "file": "./app/projectindicators/queries/getprojectindicator.ts",
+            "start": 323,
+            "length": 16,
+            "code": 2551,
+            "category": 1,
+            "messageText": "Property 'projectIndicator' does not exist on type 'PrismaClient<PrismaClientOptions, never>'. Did you mean 'projectIndicators'?",
+            "relatedInformation": [
+              {
+                "file": "./node_modules/.prisma/client/index.d.ts",
+                "start": 17582,
+                "length": 17,
+                "messageText": "'projectIndicators' is declared here.",
+                "category": 3,
+                "code": 2728
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        "./app/projectindicators/queries/getprojectindicators.ts",
+        [
+          {
+            "file": "./app/projectindicators/queries/getprojectindicators.ts",
+            "start": 109,
+            "length": 28,
+            "messageText": "'\"/Users/mattsirkis/isgood.ai/isgood-webapp/node_modules/.prisma/client/index\".Prisma' has no exported member named 'FindManyProjectIndicatorArgs'. Did you mean 'FindManyprojectIndicatorsArgs'?",
+            "category": 1,
+            "code": 2724
+          },
+          {
+            "file": "./app/projectindicators/queries/getprojectindicators.ts",
+            "start": 378,
+            "length": 16,
+            "code": 2551,
+            "category": 1,
+            "messageText": "Property 'projectIndicator' does not exist on type 'PrismaClient<PrismaClientOptions, never>'. Did you mean 'projectIndicators'?",
+            "relatedInformation": [
+              {
+                "file": "./node_modules/.prisma/client/index.d.ts",
+                "start": 17582,
+                "length": 17,
+                "messageText": "'projectIndicators' is declared here.",
+                "category": 3,
+                "code": 2728
+              }
+            ]
+          },
+          {
+            "file": "./app/projectindicators/queries/getprojectindicators.ts",
+            "start": 481,
+            "length": 16,
+            "code": 2551,
+            "category": 1,
+            "messageText": "Property 'projectIndicator' does not exist on type 'PrismaClient<PrismaClientOptions, never>'. Did you mean 'projectIndicators'?",
+            "relatedInformation": [
+              {
+                "file": "./node_modules/.prisma/client/index.d.ts",
+                "start": 17582,
+                "length": 17,
+                "messageText": "'projectIndicators' is declared here.",
+                "category": 3,
+                "code": 2728
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        "./app/projects/components/projectform.tsx",
+        [
+          {
+            "file": "./app/projects/components/projectform.tsx",
+            "start": 656,
+            "length": 11,
+            "code": 2345,
+            "category": 1,
+            "messageText": {
+              "messageText": "Argument of type '{ where: {}; }' is not assignable to parameter of type 'Pick<any, \"where\" | \"orderBy\" | \"take\" | \"skip\">'.",
+              "category": 1,
+              "code": 2345,
+              "next": [
+                {
+                  "messageText": "Type '{ where: {}; }' is missing the following properties from type 'Pick<any, \"where\" | \"orderBy\" | \"take\" | \"skip\">': orderBy, take, skip",
+                  "category": 1,
+                  "code": 2739
+                }
+              ]
+            }
+          },
+          {
+            "file": "./app/projects/components/projectform.tsx",
+            "start": 732,
+            "length": 11,
+            "code": 2345,
+            "category": 1,
+            "messageText": {
+              "messageText": "Argument of type '{ where: {}; }' is not assignable to parameter of type 'Pick<any, \"where\" | \"orderBy\" | \"take\" | \"skip\">'.",
+              "category": 1,
+              "code": 2345,
+              "next": [
+                {
+                  "messageText": "Type '{ where: {}; }' is missing the following properties from type 'Pick<any, \"where\" | \"orderBy\" | \"take\" | \"skip\">': orderBy, take, skip",
+                  "category": 1,
+                  "code": 2739
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      [
+        "./app/projects/mutations/createproject.ts",
+        [
+          {
+            "file": "./app/projects/mutations/createproject.ts",
+            "start": 99,
+            "length": 17,
+            "messageText": "'\"/Users/mattsirkis/isgood.ai/isgood-webapp/node_modules/.prisma/client/index\".Prisma' has no exported member named 'ProjectCreateArgs'. Did you mean 'projectCreateArgs'?",
+            "category": 1,
+            "code": 2724
+          }
+        ]
+      ],
+      [
+        "./app/projects/mutations/deleteproject.ts",
+        [
+          {
+            "file": "./app/projects/mutations/deleteproject.ts",
+            "start": 99,
+            "length": 17,
+            "messageText": "'\"/Users/mattsirkis/isgood.ai/isgood-webapp/node_modules/.prisma/client/index\".Prisma' has no exported member named 'ProjectDeleteArgs'. Did you mean 'projectDeleteArgs'?",
+            "category": 1,
+            "code": 2724
+          }
+        ]
+      ],
+      [
+        "./app/projects/mutations/updateproject.ts",
+        [
+          {
+            "file": "./app/projects/mutations/updateproject.ts",
+            "start": 99,
+            "length": 17,
+            "messageText": "'\"/Users/mattsirkis/isgood.ai/isgood-webapp/node_modules/.prisma/client/index\".Prisma' has no exported member named 'ProjectUpdateArgs'. Did you mean 'projectUpdateArgs'?",
+            "category": 1,
+            "code": 2724
+          }
+        ]
+      ],
       "./app/projects/pages/projects/[projectid].tsx",
       "./app/projects/pages/projects/[projectid]/edit.tsx",
-      "./app/projects/pages/projects/index.tsx",
+      [
+        "./app/projects/pages/projects/index.tsx",
+        [
+          {
+            "file": "./app/projects/pages/projects/index.tsx",
+            "start": 407,
+            "length": 92,
+            "code": 2345,
+            "category": 1,
+            "messageText": {
+              "messageText": "Argument of type '{ orderBy: { id: string; }; skip: number; take: number; }' is not assignable to parameter of type 'Pick<any, \"where\" | \"orderBy\" | \"take\" | \"skip\">'.",
+              "category": 1,
+              "code": 2345,
+              "next": [
+                {
+                  "messageText": "Property 'where' is missing in type '{ orderBy: { id: string; }; skip: number; take: number; }' but required in type 'Pick<any, \"where\" | \"orderBy\" | \"take\" | \"skip\">'.",
+                  "category": 1,
+                  "code": 2741
+                }
+              ]
+            }
+          }
+        ]
+      ],
       "./app/projects/pages/projects/new.tsx",
-      "./app/projects/queries/getproject.ts",
-      "./app/projects/queries/getprojects.ts",
-      "./app/users/queries/getcurrentuser.ts",
+      [
+        "./app/projects/queries/getproject.ts",
+        [
+          {
+            "file": "./app/projects/queries/getproject.ts",
+            "start": 111,
+            "length": 20,
+            "messageText": "'\"/Users/mattsirkis/isgood.ai/isgood-webapp/node_modules/.prisma/client/index\".Prisma' has no exported member named 'FindFirstProjectArgs'. Did you mean 'FindFirstprojectArgs'?",
+            "category": 1,
+            "code": 2724
+          },
+          {
+            "file": "./app/projects/queries/getproject.ts",
+            "start": 315,
+            "length": 19,
+            "code": 2322,
+            "category": 1,
+            "messageText": {
+              "messageText": "Type '{ beneficiaries: true; }' is not assignable to type 'projectInclude'.",
+              "category": 1,
+              "code": 2322,
+              "next": [
+                {
+                  "messageText": "Object literal may only specify known properties, and 'beneficiaries' does not exist in type 'projectInclude'.",
+                  "category": 1,
+                  "code": 2353
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      [
+        "./app/projects/queries/getprojects.ts",
+        [
+          {
+            "file": "./app/projects/queries/getprojects.ts",
+            "start": 97,
+            "length": 19,
+            "messageText": "'\"/Users/mattsirkis/isgood.ai/isgood-webapp/node_modules/.prisma/client/index\".Prisma' has no exported member named 'FindManyProjectArgs'. Did you mean 'FindManyprojectArgs'?",
+            "category": 1,
+            "code": 2724
+          },
+          {
+            "file": "./app/projects/queries/getprojects.ts",
+            "start": 404,
+            "length": 19,
+            "code": 2322,
+            "category": 1,
+            "messageText": {
+              "messageText": "Type '{ beneficiaries: true; }' is not assignable to type 'projectInclude'.",
+              "category": 1,
+              "code": 2322,
+              "next": [
+                {
+                  "messageText": "Object literal may only specify known properties, and 'beneficiaries' does not exist in type 'projectInclude'.",
+                  "category": 1,
+                  "code": 2353
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      [
+        "./app/users/queries/getcurrentuser.ts",
+        [
+          {
+            "file": "./app/users/queries/getcurrentuser.ts",
+            "start": 260,
+            "length": 10,
+            "code": 2322,
+            "category": 1,
+            "messageText": {
+              "messageText": "Type '{ id: true; name: true; email: true; role: true; }' is not assignable to type 'userSelect'.",
+              "category": 1,
+              "code": 2322,
+              "next": [
+                {
+                  "messageText": "Object literal may only specify known properties, and 'name' does not exist in type 'userSelect'.",
+                  "category": 1,
+                  "code": 2353
+                }
+              ]
+            }
+          }
+        ]
+      ],
       "./db/index.ts",
       "./db/seeds.ts",
       "./node_modules/.prisma/client/index.d.ts",
@@ -4358,7 +5279,27 @@
       "./node_modules/zod/lib/src/zoderror.d.ts",
       "./test/setup.ts",
       "./test/utils.tsx",
-      "./types.ts"
+      [
+        "./types.ts",
+        [
+          {
+            "file": "./types.ts",
+            "start": 79,
+            "length": 4,
+            "messageText": "'\"./db\"' has no exported member named 'User'. Did you mean 'user'?",
+            "category": 1,
+            "code": 2724
+          },
+          {
+            "file": "./types.ts",
+            "start": 85,
+            "length": 11,
+            "messageText": "'\"./db\"' has no exported member named 'Beneficiary'. Did you mean 'beneficiary'?",
+            "category": 1,
+            "code": 2724
+          }
+        ]
+      ]
     ],
     "affectedFilesPendingEmit": [
       [
@@ -4510,11 +5451,23 @@
         1
       ],
       [
+        "./app/pages/adminpage.tsx",
+        1
+      ],
+      [
         "./app/pages/index.test.tsx",
         1
       ],
       [
         "./app/pages/index.tsx",
+        1
+      ],
+      [
+        "./app/pages/managerpage.tsx",
+        1
+      ],
+      [
+        "./app/pages/userpage.tsx",
         1
       ],
       [

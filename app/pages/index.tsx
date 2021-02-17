@@ -14,46 +14,52 @@ import User from "./userPage"
 
 const UserInfo = () => {
   const currentUser = useCurrentUser()
-  
+
   const [logoutMutation] = useMutation(logout)
 
-  if (currentUser?.role === "ADMIN") {
-    return (
-      <>
-        <Admin/>
-      </>
-    )
-  } 
-  if (currentUser?.role ==="MANAGER") {
-    return (
-      <>
-        <Manager/>
-      </>
-    )
-  } 
-  if (currentUser?.role ==="USER") {
-    return (
-      <>
-        <User/>
-      </>
-    )
-  } 
-  else {
-    return (
-      <>
-        <Link href="/signup">
-          <a className="button small">
-            <strong>Sign Up</strong>
-          </a>
-        </Link>
-        <Link href="/login">
-          <a className="button small">
-            <strong>Login</strong>
-          </a>
-        </Link>
-      </>
-    )
-  }
+  return (
+    <>
+      <Admin />
+    </>
+  )
+
+  // if (currentUser?.role === "ADMIN") {
+  //   return (
+  //     <>
+  //       <Admin/>
+  //     </>
+  //   )
+  // }
+  // if (currentUser?.role ==="MANAGER") {
+  //   return (
+  //     <>
+  //       <Manager/>
+  //     </>
+  //   )
+  // }
+  // if (currentUser?.role ==="USER") {
+  //   return (
+  //     <>
+  //       <User/>
+  //     </>
+  //   )
+  // }
+  // else {
+  //   return (
+  //     <>
+  //       <Link href="/signup">
+  //         <a className="button small">
+  //           <strong>Sign Up</strong>
+  //         </a>
+  //       </Link>
+  //       <Link href="/login">
+  //         <a className="button small">
+  //           <strong>Login</strong>
+  //         </a>
+  //       </Link>
+  //     </>
+  //   )
+  // }
 }
 
 const Home: BlitzPage = () => {
@@ -70,8 +76,7 @@ const Home: BlitzPage = () => {
           <Suspense fallback="Loading...">
             <UserInfo />
           </Suspense>
-        </div>   
-        
+        </div>
       </main>
 
       <footer>

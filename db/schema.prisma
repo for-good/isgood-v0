@@ -170,6 +170,7 @@ model user {
   lastName                    String
   hashedPassword              String
   status                      String
+  roles                       Role      @default(ADMIN)
   emailVerified               Boolean?  @default(false)
   emailVerificationToken      String?   @unique
   emailVerificationExpiresAt  DateTime?
@@ -183,8 +184,6 @@ model user {
   createdAt                   DateTime  @default(now())
   deletedAt                   DateTime?
   updatedAt                   DateTime  @updatedAt
-  createdBy                   Int
-  updatedBy                   Int
   Session                     Session[]
   org_org_createdByIdTouser   org[]     @relation("org_createdByIdTouser")
   org_org_updatedByIdTouser   org[]     @relation("org_updatedByIdTouser")
