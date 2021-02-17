@@ -1,6 +1,8 @@
 // This is your Prisma schema file,
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
+
+
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
@@ -10,79 +12,190 @@ generator client {
   provider = "prisma-client-js"
 }
 
-// --------------------------------------
 
-model User {
-  id             Int       @default(autoincrement()) @id
-  createdAt      DateTime  @default(now())
-  updatedAt      DateTime  @updatedAt
-  name           String?
-  email          String    @unique
-  hashedPassword String?
-  projects      Project[]
-  role           Role    @default(USER)
-  sessions       Session[]
-}
-
-enum Role {
-    USER
-    ADMIN
-    MANAGER
-}
 model Session {
-  id                 Int       @default(autoincrement()) @id
+  id                 Int       @id @default(autoincrement())
   createdAt          DateTime  @default(now())
   updatedAt          DateTime  @updatedAt
   expiresAt          DateTime?
   handle             String    @unique
-  user               User?     @relation(fields: [userId], references: [id])
   userId             Int?
   hashedSessionToken String?
   antiCSRFToken      String?
   publicData         String?
   privateData        String?
+  user               user?     @relation(fields: [userId], references: [id])
 }
 
-model Project {
-  id                Int                @default(autoincrement()) @id
-  createdAt         DateTime           @default(now())
-  updatedAt         DateTime           @updatedAt
-  name              String   
-  description       String
-  projecimpacts     String
-  projectoutcomes   String        
-  beneficiaries     Beneficiary[]          
-  projectindicators ProjectIndicator[]     
-  user              User?              @relation(fields: [userId], references: [id])
-  userId            Int?               
+model beneficiary {
+  id                                Int                                 @id @default(autoincrement())
+  name                              String
+  lifeChange                        String?
+  importHash                        String?
+  createdAt                         DateTime @default(now())
+  updatedAt                         DateTime  @updatedAt
+  deletedAt                         DateTime?
+  beneficiaryDemographicDemographic beneficiaryDemographicDemographic[]
+  projectBeneficiaryBeneficiary     projectBeneficiaryBeneficiary[]
 }
 
-model Beneficiary {
-  id           Int           @default(autoincrement()) @id
-  createdAt    DateTime      @default(now())
-  updatedAt    DateTime      @updatedAt
-  name         String        
-  demographics Demographic[]   
-  project      Project[]    
-          
+model beneficiaryDemographicDemographic {
+  id            Int         @id @default(autoincrement())
+  beneficiaryId Int
+  demographicId Int
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+  beneficiary   beneficiary @relation(fields: [beneficiaryId], references: [id])
+  demographic   demographic @relation(fields: [demographicId], references: [id])
 }
 
-
-model ProjectIndicator {
-  id        Int      @default(autoincrement()) @id
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  name      String   
-  projects  Project[]
-      
+model demographic {
+  id                                Int           @id @default(autoincrement())
+  name                              String?
+  fieldType                         String?
+  value                             String?
+  operator                          String?
+  importHash                        String?
+  createdAt                         DateTime      @default(now())
+  updatedAt                         DateTime      @updatedAt
+  deletedAt                         DateTime?
+  beneficiaryDemographicDemographic beneficiaryDemographicDemographic[]
 }
 
+model org {
+  id                         Int              @id @default(autoincrement())
+  name                       String
+  url                        String           @unique
+  plan                       String
+  planStatus                 String           @default("active")
+  planStripeCustomerId       String?
+  planUserId                 String?
+  status                     String
+  createdAt                  DateTime         @default(now())
+  updatedAt                  DateTime         @updatedAt
+  deletedAt                  DateTime?
+  createdById                Int
+  updatedById                Int
+  user_org_createdByIdTouser user      @relation("org_createdByIdTouser", fields: [createdById], references: [id])
+  user_org_updatedByIdTouser user      @relation("org_updatedByIdTouser", fields: [updatedById], references: [id])
+  orgUser                    orgUser[]
+  project                    project[]
+}
 
-model Demographic {
-  id            Int          @default(autoincrement()) @id
-  createdAt     DateTime     @default(now())
-  updatedAt     DateTime     @updatedAt
-  name          String       
-  beneficiary Beneficiary[] 
-          
+model orgUser {
+  id                            Int                     @id @default(autoincrement())
+  orgId                                Int?
+  userId                               Int
+  roles                                Role          @default(ORGANIZATION_OWNER)
+  invitationToken                      String?
+  status                               String
+  createdAt                            DateTime         @default(now())
+  updatedAt                            DateTime         @updatedAt
+  statusDeactivatedAt                  Int
+  org                                  org?                    @relation(fields: [orgId], references: [id])
+  user                                 user                    @relation(fields: [userId], references: [id])
+  orgUserProjectProject                orgUserProjectProject[]
+  project_orgUserToproject_createdById project[]               @relation("orgUserToproject_createdById")
+  project_orgUserToproject_updatedById project[]               @relation("orgUserToproject_updatedById")
+}
+
+model orgUserProjectProject {
+  id                                     Int      @id @default(autoincrement())
+  orgUser                                Int
+  projectId                              Int
+  orgUserRole                            Role     @default(PROJECT_OWNER)
+  createdAt                              DateTime @default(now())
+  updatedAt                              DateTime @updatedAt
+  orgUser_orgUserToorgUserProjectProject orgUser  @relation(fields: [orgUser], references: [id])
+  project                                project  @relation(fields: [projectId], references: [id])
+}
+
+model project {
+  id                                   Int                              @id @default(autoincrement())
+  name                                 String
+  description                          String
+  impacts                              String
+  outcomes                             String
+  geolocation                          String
+  startDate                            DateTime
+  endDate                              DateTime
+  importHash                           String?
+  createdAt                            DateTime @default(now())
+  updatedAt                            DateTime @updatedAt
+  deletedAt                            DateTime?
+  orgId                                Int?
+  createdById                          Int?
+  updatedById                          Int?
+  orgUser_orgUserToproject_createdById orgUser?                         @relation("orgUserToproject_createdById", fields: [createdById], references: [id])
+  org                                  org?                             @relation(fields: [orgId], references: [id])
+  orgUser_orgUserToproject_updatedById orgUser?                         @relation("orgUserToproject_updatedById", fields: [updatedById], references: [id])
+  orgUserProjectProject                orgUserProjectProject[]
+  projectBeneficiaryBeneficiary        projectBeneficiaryBeneficiary[]
+  projectIndicatorProjectProject       projectIndicatorProjectProject[]
+}
+
+model projectBeneficiaryBeneficiary {
+  id            Int         @id @default(autoincrement())
+  projectId     Int
+  beneficiaryId Int
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+  beneficiary   beneficiary @relation(fields: [beneficiaryId], references: [id])
+  project       project     @relation(fields: [projectId], references: [id])
+}
+
+model projectIndicatorProjectProject {
+  id                 Int               @id @default(autoincrement())
+  projectId          Int
+  projectIndicatorId Int
+  createdAt          DateTime          @default(now())
+  updatedAt          DateTime          @updatedAt
+  project            project           @relation(fields: [projectId], references: [id])
+  projectIndicators  projectIndicators @relation(fields: [projectIndicatorId], references: [id])
+}
+
+model projectIndicators {
+  id                             Int                @id @default(autoincrement())
+  indicatorId                    String?
+  importHash                     String?
+  createdAt                      DateTime           @default(now())
+  updatedAt                      DateTime           @updatedAt
+  deletedAt                      DateTime?
+  projectIndicatorProjectProject projectIndicatorProjectProject[]
+}
+
+model user {
+  id                          Int       @id @default(autoincrement())
+  firstName                   String
+  lastName                    String
+  hashedPassword              String
+  status                      String
+  emailVerified               Boolean?  @default(false)
+  emailVerificationToken      String?   @unique
+  emailVerificationExpiresAt  DateTime?
+  passwordResetToken          String?
+  passwordResetTokenExpiresAt DateTime?
+  fullName                    String
+  phoneNumber                 String?
+  email                       String    @unique
+  jwtTokenInvalidBefore       DateTime?
+  importHash                  String?   @unique
+  createdAt                   DateTime  @default(now())
+  deletedAt                   DateTime?
+  updatedAt                   DateTime  @updatedAt
+  createdBy                   Int
+  updatedBy                   Int
+  Session                     Session[]
+  org_org_createdByIdTouser   org[]     @relation("org_createdByIdTouser")
+  org_org_updatedByIdTouser   org[]     @relation("org_updatedByIdTouser")
+  orgUser                     orgUser[]
+}
+
+enum Role {
+  ADMIN
+  ORGANIZATION_OWNER
+  PROJECT_OWNER
+  PROJECT_MANAGER
+  COLLABORATOR
+  GUEST_VIEW
 }
