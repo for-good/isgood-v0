@@ -180,12 +180,3 @@ You can read more about it in the [File Structure](https://blitzjs.com/docs/file
 ## Learn more
 
 Read the [Blitz.js Documentation](https://blitzjs.com/docs/getting-started) to learn more.
-
-The Blitz community is warm, safe, diverse, inclusive, and fun! Feel free to reach out to us in any of our communication channels.
-
-- [Website](https://blitzjs.com/)
-- [Discord](https://discord.blitzjs.com/)
-- [Report an issue](https://github.com/blitz-js/blitz/issues/new/choose)
-- [Forum discussions](https://github.com/blitz-js/blitz/discussions)
-- [How to Contribute](https://blitzjs.com/docs/contributing)
-- [Sponsor or donate](https://github.com/blitz-js/blitz#sponsors-and-donations)
