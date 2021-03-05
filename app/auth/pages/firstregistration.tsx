@@ -3,85 +3,25 @@ import Layout from "app/core/layouts/Layout"
 import logout from "app/auth/mutations/logout"
 import { useCurrentUser } from "app/core/hooks/useCurrentUser"
 import React, { Suspense } from "react"
-import Admin from "./adminPage"
-import Manager from "./managerPage"
-import User from "./userPage"
-import SuperAdmin from "./SuperAdmin"
-import db from "db"
+
 /*
  * This file is just for a pleasant getting started page for your new app.
  * You can delete everything in here and start from scratch if you like.
  */
-export async function getServerSideProps(context) {
-  const user = await db.user.count({where:{}})
 
-  if (!user) {
-    return {
-      redirect: {
-        destination: "/firstregistration",
-        permanent: false,
-      },
-    }
-  }
-
-  return {
-    props: {}, // will be passed to the page component as props
-  }
-}
 const UserInfo = () => {
   const currentUser = useCurrentUser()
   const [logoutMutation] = useMutation(logout)
-
-  if (currentUser?.role === "ADMIN" ) {
-    
-    return (
-        <SuperAdmin/>
-    )
-  } 
-  if (currentUser?.role ==="ORGANIZATION_OWNER") {
-    if(currentUser.name === null){
-      return (
-        <SuperAdmin/>
-      )
-    }else
-    return (
-        <Admin/>
-    )
-  } 
-  if (currentUser?.role ==="PROJECT_MANAGER") {
-    if(currentUser.name === null){
-      return (
-        <SuperAdmin/>
-      )
-    }else
-    return (
-        <Manager/>
-    )
-  } 
-  if (currentUser?.role ==="USER") {
-    if(currentUser.name === null){
-      return (
-        <SuperAdmin/>
-      )
-    }else
-    return (
-        <User/>
-    )
-  } 
-    else 
   {
     return (
       <>
-        <Link href="/edit">
+      
+        <Link href="/signup">
           <a className="button small">
-            <strong>Sign Up New User</strong>
+            <strong>Sign Up</strong>
           </a>
         </Link>
-        <Link href="/login">
-          <a className="button small">
-            <strong>Login</strong>
-          </a>
-        </Link>
+        
       </>
     )
   }
@@ -95,7 +35,8 @@ const Home: BlitzPage = () => {
           <img src="/logo.png" alt="blitz.js" />
         </div>
         <p>
-          <strong>Welecome to isgood!</strong> Solutions for Humanity - Community.
+          <strong>Welecome to isgood!</strong> Solutions for Humanity - Community.<br/>
+          <b>You need to__signup__to access this application</b>
         </p>
         <div className="buttons" style={{ marginTop: "1rem", marginBottom: "1rem" }}>
           <Suspense fallback="Loading...">

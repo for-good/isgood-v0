@@ -24,4 +24,4 @@ declare module "blitz" {
       name: User["name"]
     }
   }
-}
+} 
